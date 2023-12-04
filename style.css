@@ -33,7 +33,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   /* quando se utiliza essa propriedade marging dessa forma, ela será aplicada em cima, nas laterais e a ultima, na parte de baixo*/
   padding: 0 24px;
